@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Portfolio</title>
+<style>
+#bar
+{
+display: flex;
+justify-content: space-between;
+background-color: rgb(0, 0, 0);
+}
+#parent
+{
+display: flex;
+justify-content:right;
+padding: 10px;
+border-radius: 5px;
+}
+.child
+{
+background-color: transparent !important;
+color:rgb(255, 255, 255);
+padding: 5px 50px;
+border-radius: 10%;
+font-weight: 600;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: larger;
+}
+#background
+{
+background-color: rgb(19, 19, 19);
+}
+.name
+{
+color: rgb(255, 255, 255);
+box-sizing: border-box;
+text-align: center;
+background-image:url('wallpaper.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 250px;
+border-radius: 2%;
+font-family:cursive;
+font-weight: 900;
+}
+.Input
+{
+border-radius: 5%;
+display: table-column; width:90%;
+}
+#map
+{
+background-color: rgb(46, 46, 46);
+display: flex;
+justify-content: space-around;
+padding:20px;
+}
+.Form
+{
+background-color: rgb(88, 88, 88);
+padding: 10px;
+width: 300px;
+}
+.label
+{
+font-weight:600;
+}
+</style>
+</head>
+<body id="background">
+<div id="bar">
+<img src="pp.png" height="60px" style="border-radius: 50%;">
+<div id="parent">
+<div class="child"><a href="portfolio.html" style="text-decoration:none;">Home</a></div>
+<div class="child"><a href="manunknown121212@gmail.com" style="text-decoration:none;">Contact</a></div>
+<div class="child"><a href="about.html" style="text-decoration:none">About</a></div>
+</div>
+</div>
+<h1 class="name">Bibash Neupane</h1>
+<br><br><br><br><br>
+<div id="map">
+<div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3600.955697306922!2d83.4672679789396!3d27.648154224679157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1707228887175!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<div class="Form">
+<form action="https://formsubmit.co/manunknown121212@gmail.com" method="POST">
+<h3>Contact me:</h3>
+<lable class="Label">Name:</lable>
+<input type="text" id="name" name="name" class="input" placeholder="Your name" required><br>
+<label class="Label">Age:</label>
+<input type="number" id="age" name="age" class="input" placeholder="Your age" required><br>
+<label class="Label">Address:</label>
+<input type="text" id="address" name="address" class="input" placeholder="Your Address" required><br>
+<label class="Label">Gender:</label><br>
+<input type="radio" id="male" name="gender"><label class="Label">Male</label>
+<input type="radio" id="female" name="gender"><label class="Label">Female</label>
+<input type="radio" id="false" name="gender"><label class="Label">I don't know</label><br>
+<label class="Label">Email:</label>
+<input type="email" name="email" class="input" placeholder="Your Email" required>
+<button type="submit" style="text-decoration:none;background-color:white; margin-left:75%;">Send</button>
+</form>
+</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
